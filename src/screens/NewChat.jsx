@@ -45,12 +45,7 @@ function NewChat({ setScreen }) {
          ← Back
         </button>
         <h1 className="text-xl font-bold text-pink-500">New Chat</h1>
-           <button
-          className="flex items-center text-pink-500 font-sm cursor-pointer hover:text-gray-600 "
-          onClick={() => setScreen("chat")}
-        >
-         Chat
-        </button>
+      
       </div>
 
       {/* Content Area */}
